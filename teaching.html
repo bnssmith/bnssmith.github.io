@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research - Benjamin Smith</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+        }
+        
+        header {
+            background: #2774AE;
+            color: white;
+            padding: 2rem 0;
+            border-bottom: 4px solid #2774AE;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 400;
+        }
+        
+        .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            font-style: italic;
+        }
+        
+        nav {
+            background: #2c5282;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            transition: opacity 0.3s;
+        }
+        
+        nav a:hover {
+            opacity: 0.7;
+        }
+        
+        nav a.active {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        
+        section {
+            padding: 3rem 0;
+        }
+        
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: #2774AE;
+            font-weight: 400;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+        }
+        
+        h3 {
+            font-size: 1.3rem;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+            color: #2c5282;
+        }
+        
+        .research-item {
+            margin-bottom: 2.5rem;
+        }
+        
+        .research-item h3 {
+            margin-top: 0;
+        }
+        
+        .paper-title {
+            color: #2c5282;
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 0.3rem;
+        }
+        
+        .coauthors {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+        
+        .paper-links {
+            margin-top: 0.5rem;
+        }
+        
+        .paper-links a {
+            color: #2774AE;
+            text-decoration: none;
+            margin-right: 1rem;
+            font-size: 0.95rem;
+        }
+        
+        .paper-links a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            background: #f7fafc;
+            padding: 2rem 0;
+            text-align: center;
+            color: #666;
+            margin-top: 3rem;
+        }
+        
+        a {
+            color: #2774AE;
+        }
+        
+        @media (max-width: 768px) {
+            nav ul {
+                gap: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Benjamin Smith</h1>
+            <p class="subtitle">PhD Candidate in Economics</p>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="research.html" class="active">Research</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="cv.html">CV</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section>
+            <h2>Research</h2>
+            
+            <div class="research-item">
+                <h3>Job Market Paper</h3>
+                <p class="paper-title">Did Medicaid Finance the Early Opioid Epidemic? An Investigation Using State Policies</p>
+                <p>Abstract: I explore whether expanding access to Medicaid contributed to the opioid epidemic's First Wave (between 1996 and 2010), when pharmaceutical drugs dominated growth in the market for opioids. Applying a simulated instrumental variable strategy to a novel collection of data sources, I estimate same-year effects of plausibly exogenous increases in state-level Medicaid eligibility rates for adults under 65 years old. Pharmaceutical opioid sales and opioid abuse treatment admissions increased by approximately 3.5% and 15.8%, respectively, for every 1p.p. increase in a given state's enrollment rate measure. Effects on opioid overdose deaths are positive and comparable in magnitude to the effect on opioid sales, but the estimated coefficient is statistically insignificant. I discuss possible mechanisms and areas for future research.</p>
+                <div class="paper-links">
+                    <a href="jmp.pdf">[PDF]</a>
+                    <!-- <a href="#">[Slides]</a> -->
+                </div>
+            </div>
+            
+            <!-- Add more research items here as you develop them -->
+            
+            <!--
+            <div class="research-item">
+                <h3>Working Papers</h3>
+                <p class="paper-title">Paper Title Here</p>
+                <p class="coauthors">With [Coauthor Names]</p>
+                <p>Abstract or description goes here.</p>
+                <div class="paper-links">
+                    <a href="#">[PDF]</a>
+                </div>
+            </div>
+            -->
+            
+        </section>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Benjamin Smith. Last updated: October 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
